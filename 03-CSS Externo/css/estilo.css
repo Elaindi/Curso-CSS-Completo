@@ -1,0 +1,16 @@
+ body {
+            background: rgb(216, 123, 1);
+        }
+
+        h1 {
+            color: blue;
+            font-size: 88px;
+        }
+
+        h2 {
+            color: blueviolet;
+        }
+
+        h2 {
+            font-size: 100px;
+        }
