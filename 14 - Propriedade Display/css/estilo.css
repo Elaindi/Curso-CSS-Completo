@@ -1,0 +1,71 @@
+.borda {
+    border: 1px solid red;
+}
+
+
+p {
+  display: inline;  
+}
+
+#p1 {
+    display: block;
+
+}
+
+#p1:hover{
+    display: none;
+
+}
+
+.azul {
+    background: blue;
+}
+.red {
+    background: rgb(245, 8, 40);
+}
+.verde {
+    background: rgb(10, 248, 30);
+}
+
+
+div{
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+}
+
+a.botão {
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
