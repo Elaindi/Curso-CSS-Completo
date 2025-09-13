@@ -1,0 +1,41 @@
+.exemplo{
+    background: rgb(200, 200, 202);
+    color: rgb(1, 6, 10);
+    height: 150px;
+    overflow: auto;
+    width: 1200px;
+}
+
+body{
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
