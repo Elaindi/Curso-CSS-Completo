@@ -1,0 +1,62 @@
+.container{
+    border: solid black;
+    overflow: auto;
+
+    
+}
+.container img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+ul{
+    background: black;
+    padding: 20px;
+}
+li{
+    display: inline-block; 
+
+}
+li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
+li a:hover{
+    background: #ccc;
+    color: black;
+}
+.login{
+    float: right;
+}
+.login a:hover{
+    background: orange;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
