@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display em bloco</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--📌 Estrutura e posicionamento
+
+position → usado para posicionar o menu (relative, absolute, fixed).
+
+top, left, right, bottom → define onde o dropdown aparecerá em relação ao elemento pai.
+
+z-index → controla a sobreposição (para o menu ficar por cima de outros elementos).
+
+display → alterna entre none, block, flex ou grid para mostrar/ocultar.
+
+visibility → alterna entre hidden e visible.
+
+opacity → dá efeito de transparência na abertura/fechamento.
+
+📌 Aparência
+
+background-color → cor de fundo do menu.
+
+color → cor do texto.
+
+padding, margin → espaçamento interno e externo.
+
+border, border-radius → bordas arredondadas.
+
+box-shadow → dá profundidade (efeito de flutuar).
+
+📌 Animações e transições
+
+transition → suaviza mudanças de opacity, height, visibility.
+
+transform → pode mover, escalar ou animar o dropdown (translateY, scaleY).
+
+animation → usado com @keyframes para abrir/fechar com movimento.
+    -->
+</head>
+<body>
+    <h1 class="borda">Meu primeiro CSS</h1>
+    <ul>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+            <a class="dropbtn" 
+            href="#">Link</a>
+            <div class="dropdown-contente">
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                
+            </div>
+        </li>
+    </ul>
+    
+  
+    
+    <br><br><br><br><br><br><br>
+    <a href="index.html" class="botao borda">Voltar para inicial</a>
+</body>
+</html>
