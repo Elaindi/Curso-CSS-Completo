@@ -1,0 +1,55 @@
+.img1:hover{
+    opacity: 0.9;
+}
+.img2:hover{
+    opacity: 0.5;
+}
+.img3{
+    opacity: 0.3;
+}
+
+a.botão {
+    padding: 15px;
+    background: green;
+    color: aliceblue;
+    text-decoration: none;
+}
+a.botão:hover{
+    opacity: 0.5;
+}
+
+.transparente{
+    background: blue;
+    color: white;
+    padding: 40px;
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
