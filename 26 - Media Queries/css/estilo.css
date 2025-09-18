@@ -1,0 +1,52 @@
+h2{
+    color: #fcf7f7;
+    font-size: 14px;
+}
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+  body {
+    background: blue;
+  }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+  body {
+    background: green;
+  }
+}
+
+/* Dispositivos Médios (Tablets, 768px para cima) */
+@media only screen and (min-width: 768px) {
+  body {
+    background: rgb(160, 205, 235);
+  }
+}
+
+/* Dispositivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+  body {
+    background: red;
+    
+  }
+  h2{
+    font-size: 22px;
+  }
+  .exemplo{
+    display: none;
+
+  }
+}
+
+/* Super Largos (Telas grandes: desktops maiores e TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: rebeccapurple;
+   
+  }
+  h2{
+    font-size: 22px;
+  }
+}
