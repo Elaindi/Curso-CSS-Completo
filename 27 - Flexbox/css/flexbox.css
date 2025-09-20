@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background: grey;
+    color: black;
+    font-weight: bold;
+
+}
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card{
+    flex-grow: 1;
+    background: rgb(207, 205, 205);
+    height: 400px;
+    margin:  1%;
+}
+
+
+@media  screen and (max-width: 700px) {
+    .navbar{
+        flex-direction: column;
+    }
+}
